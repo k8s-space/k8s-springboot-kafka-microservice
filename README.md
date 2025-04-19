@@ -114,12 +114,13 @@ curl -X POST http://localhost:8080/orders -H "Content-Type: application/json" -d
 
 > This project is part of my learning path around **microservices, DDD, event-driven architecture** and **cloud-native development**. Feedback, questions or pull requests are always welcome!
 
-## 💬 Feedback & Fragen  
-- **Diskutiere mit** via [GitHub Issues](https://github.com/k8s-space/k8s-springboot-kafka-microservice/issues).  
-- **Verbesserungsvorschlag?** Ich freue mich über PRs!
+## 💬 Feedback & Questions  
+- **Discuss ideas via** [GitHub Issues](https://github.com/k8s-space/k8s-springboot-kafka-microservice/issues).  
+- **Suggest improvements?** PRs are welcome!
 
-## 🛠️ Mitmachen  
-1. Fork das Repo  
-2. Erstelle einen Branch (`git checkout -b feature/xyz`)  
-3. Commit & Push  
-4. Öffne einen PR  
+## 🛠️ Contribution  
+1. Fork the Repository  
+2. Create your branch (`git checkout -b feature/xyz`)
+3. Commit your changes (`git commit -m 'add your feature'`)  
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request  
