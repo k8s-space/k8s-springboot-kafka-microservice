@@ -3,6 +3,12 @@
 A learning project to implement an event-driven microservice architecture with Spring Boot, Apache Kafka and Kubernetes. 
 The aim is to understand modern architectural principles such as domain-driven design (DDD), event sourcing and CQRS in a practical way and to implement them step by step.
 
+## 🚀 Why this project?  
+**For DevOps/Developer who:**  
+- Need to modernize Spring Boot+Kafka stacks  
+- Want Kubernetes best practices (not just theory)  
+- Care about observability (EventStore+Grafana coming soon)
+
 ## 🔍 Overview
 
 The project currently consists of two central microservices that are provided in a Maven project.
@@ -110,17 +116,12 @@ curl -X POST http://localhost:8080/orders -H "Content-Type: application/json" -d
 └── README.md
 ```
 
+## 💬 Discuss & Connect  
+
+- **Questions?** Open a [GitHub Discussion](https://github.com/k8s-space/k8s-springboot-kafka-microservice/duscussions).  
+- **Want this implemented in your team?** [Contact me for consulting](devtec133127@gmail.com).
+
+
 ## 🧑‍💻 Author
 
 > This project is part of my learning path around **microservices, DDD, event-driven architecture** and **cloud-native development**. Feedback, questions or pull requests are always welcome!
-
-## 💬 Feedback & Questions  
-- **Discuss ideas via** [GitHub Issues](https://github.com/k8s-space/k8s-springboot-kafka-microservice/issues).  
-- **Suggest improvements?** PRs are welcome!
-
-## 🛠️ Contribution  
-1. Fork the Repository  
-2. Create your branch (`git checkout -b feature/xyz`)
-3. Commit your changes (`git commit -m 'add your feature'`)  
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request  
