@@ -76,12 +76,12 @@ kubectl apply -f k8s/namespace.yaml
 kubectl apply -f -n ordersystem k8s/volumes/zookeeper-pv.yaml
 kubectl apply -f -n ordersystem k8s/volumes/zookeeper-pvc.yaml
 kubectl apply -f -n ordersystem k8s/stateful-set/postgres-statefulset.yaml
-kubectl apply -f -n ordersystem k8s/deployments/zookeeper-deployment.yaml
-kubectl apply -f -n ordersystem k8s/deployments/kafka-deployment.yaml
-kubectl apply -f -n ordersystem k8s/deployments/order-service-deployment.yaml
-kubectl apply -f -n ordersystem k8s/services/zookeeper-service.yaml
-kubectl apply -f -n ordersystem k8s/services/kafka-service.yaml
 kubectl apply -f -n ordersystem k8s/services/postgres-service.yaml
+kubectl apply -f -n ordersystem k8s/deployments/zookeeper-deployment.yaml
+kubectl apply -f -n ordersystem k8s/services/zookeeper-service.yaml
+kubectl apply -f -n ordersystem k8s/deployments/kafka-deployment.yaml
+kubectl apply -f -n ordersystem k8s/services/kafka-service.yaml
+kubectl apply -f -n ordersystem k8s/deployments/order-service-deployment.yaml
 ```
 
 ### 4. Testing orderService (ala port forwarding)
